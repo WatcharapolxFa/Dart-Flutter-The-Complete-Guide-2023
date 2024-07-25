@@ -3,6 +3,7 @@ class Employee{
   int? _salary;
   //static property
   static int count = 10 ;
+  //parameter constructor
   Employee(this._name,this._salary);
   void showDetail (){
     print("ชื่อของพนักงาน ${this._name}");
@@ -16,7 +17,7 @@ class Employee{
     print('สวัสดีคุณ ${name} คุณสามารถดูข้อมูลได้ที่ โฟลเดอร์ของเรา');
   }
   //getter
-  String get name => _name!;
+  String get getName => _name!;
   int get salary => _salary!;
   //setter
   set name(String value) => this._name = value;
@@ -29,5 +30,5 @@ void main (){
   emp1.showDetail();
   print(Employee.count);
   Employee.information();
-  Employee.showFounder(emp1.name);
+  Employee.showFounder(emp1.getName);
   }

@@ -1,8 +1,10 @@
 void main (){
+  //List dynamic
   var data = [100,90,80,"Watcharapol"];
   List date = ["วันจันทร์",1,2,3];
   print(data);
   print(date);
+  //List not dynamic
   List<String> information = ["Watcharapol","Yotadee","Fluke"];
   List<String> colors = ["red","white","green"];
   print("ชื่อจริง :${information[0]} นามสกุล : ${information[1]} ชื่อเล่น : ${information[2]}");

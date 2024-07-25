@@ -2,6 +2,7 @@ void main(){
   int num = 100 ; 
   num >=50 ? print("สอบผ่าน"): print("สอบตก");
   num < 50 ? print("สอบตก"):print("สอบผ่าน");
+  //================================================================================================
   String url = 'www.far.th';
   if(url.endsWith('.th')){
     print('เว็บไซต์ไทย');
@@ -12,15 +13,4 @@ void main(){
   else{
     print('เว็บไซต์อื่นๆ');
   }
-
-  // switch(url){
-  //   case url.endsWith('.th'):
-  //     print('เว็บไซต์ไทย');
-  //     break;
-  //   case url.endsWith('.com'):
-  //     print('เว็บไซต์นานาชาติ');
-  //     break;
-  //   default:
-  //     print('เว็บไซต์อื่นๆ');
-  // }
 }

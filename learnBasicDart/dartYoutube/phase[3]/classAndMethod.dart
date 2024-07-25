@@ -11,5 +11,7 @@ class Employee{
 
 void main (){
   Employee emp1 =Employee("Far", 30000);
+  Employee emp2 =Employee("Memee", 45000);
   emp1.showDetail();
+  emp2.showDetail();
 }
