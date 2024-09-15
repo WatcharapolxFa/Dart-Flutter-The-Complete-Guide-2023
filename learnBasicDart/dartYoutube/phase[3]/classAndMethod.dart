@@ -14,4 +14,5 @@ void main (){
   Employee emp2 =Employee("Memee", 45000);
   emp1.showDetail();
   emp2.showDetail();
+
 }
